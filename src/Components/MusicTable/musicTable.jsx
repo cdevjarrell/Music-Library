@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './musicTable.css';
 
 const MusicList = ({ music }) => {
   return music.map((song, i) => (
